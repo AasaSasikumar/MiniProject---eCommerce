@@ -1,0 +1,90 @@
+/* Header.css */
+
+.Header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px black;
+  }
+  
+  .headerbrand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .headerbrand p {
+    color: black;
+    font-size: 38px;
+    font-weight: 600;
+  }
+  
+  .pic {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+    object-fit: contain; /* Keeps the aspect ratio of the image */
+  }
+  
+  .headerlinks ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color:black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .headerlinks li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+  }
+  
+  .headerlinks hr {
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: red;
+  }
+  
+  .headerbuttons  {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+  }
+  
+  .headerbuttons button{
+    width: 157px;
+    height: 58px;
+    outline: none;
+    border: 1px solid;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 20px;
+    font-weight: 500;
+    background: white;
+    cursor: pointer;
+  }
+  .headerbuttons button:active{
+    background: #f3f3f3;
+  }
+  /* .nav-cart.count{ */
+    /* width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+  /* } */
+   

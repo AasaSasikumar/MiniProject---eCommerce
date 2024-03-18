@@ -1,0 +1,59 @@
+.ProductDisplay{
+    height: 100vh;
+    background: linear-gradient(180deg, #fde1ff,#e1ffea22 70%);
+    display: flex;
+}
+.ProductDisplayLeft{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+.ProductDisplayLeft h2{
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+}
+.ProductDisplayLeft p{
+    color: #171717;
+    font-size: 30px;
+    font-weight: 100;
+}
+.hero_hand_icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size:  50px;
+}
+.coll{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 50px;
+}
+.hero_hand_icon img{
+    width: 105px;
+}
+.Product-latest-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #ff4141;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+.ProductDisplayRight{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

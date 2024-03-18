@@ -1,0 +1,38 @@
+.adminProduct {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .productListTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .productListTable th,
+  .productListTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .productListTable th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .productListTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .product-btn {
+    padding: 5px 10px;
+    background-color: #ff6666;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .product-btn:hover {
+    background-color: #cc0000;
+  }
+  
