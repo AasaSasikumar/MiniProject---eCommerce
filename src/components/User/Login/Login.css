@@ -1,0 +1,110 @@
+/* Login.css */
+
+.loginUser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f2f5;
+  height: 100vh;
+}
+
+.loginUsrh1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.loginUsr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.loginSection {
+  width: 100%;
+}
+
+.loginSection h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.loginSection p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.loginUserInput {
+  width: 100%;
+}
+
+.loginUsername, .loginPassword {
+  margin-bottom: 20px;
+}
+
+.loginInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.loginSubmit {
+  text-align: center;
+}
+
+.loginSubmit button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.loginSubmit button:hover {
+  background-color: #0056b3;
+}
+
+.loginOr {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.loginCreateAccount {
+  text-align: center;
+}
+
+.loginCreateAccount button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.loginCreateAccount button:hover {
+  background-color: #218838;
+}
+
+.loginImageSection {
+  margin-top: 20px;
+}
+
+.loginImage {
+  width: 100%;
+  border-radius: 8px;
+}

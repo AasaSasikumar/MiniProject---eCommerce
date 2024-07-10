@@ -1,0 +1,77 @@
+.section.cartpage {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hd.mb-1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+}
+
+.text-read {
+  color: #ff0000;
+}
+
+.emptyWishlist {
+  text-align: center;
+  font-size: 1.2em;
+  color: #999;
+}
+
+.table-responsive {
+  width: 100%;
+  margin-bottom: 20px;
+  overflow-y: hidden;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.cartitemimgwrapper {
+  display: flex;
+  align-items: center;
+}
+
+.cartitemimgwrapper img {
+  margin-right: 15px;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn-danger:disabled {
+  background-color: #e02e3b;
+  cursor: not-allowed;
+}

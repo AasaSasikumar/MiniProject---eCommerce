@@ -1,11 +1,16 @@
 import React, { useContext } from 'react';
 import './CSS/UserCategory.css';
 import ProductItem from '../../components/User/ProductItem/ProductItem';
-import dropdown_icon from '../../components/Assets1/dropdown_icon.png';
+import dropdown_icon from '../../components/User/Assets/dropdown_icon.png';
 import { UserContext } from '../../Context/UserContext';
+import{WishlistContext} from '../../Context/WishlistContext';
+//  import ProductCard from '../../components/User/ProductCard/ProductCard';
+// import { Products } from '../../Services/AdminApi';
+
 
 const UserCategory = (props) => {
-  const { all_product } = useContext(UserContext);
+  const { all_product} = useContext(UserContext,WishlistContext);
+  // const {all_product}= useContext(WishlistContext);
 
   return (
     <div className='usercategory'>
@@ -33,6 +38,17 @@ const UserCategory = (props) => {
             return null;
           }
         })}
+         {/* <div className="shop">
+    error ? (
+        <div className="error-message">{error}</div> 
+       ) :   ( 
+      <div className="product-list">
+        {Produ.map((product) => (
+          <ProductCard key={product.id} product={product} />
+        ))}
+      </div>
+    )
+  </div> */}
       </div>
       <div className='shopcategory-loadmore'>
         Explore More

@@ -1,38 +1,134 @@
-.adminProduct {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-  }
-  
-  .productListTable {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  .productListTable th,
-  .productListTable td {
-    border: 1px solid #ddd;
-    padding: 8px;
-  }
-  
-  .productListTable th {
-    background-color: #f2f2f2;
-    text-align: left;
-  }
-  
-  .productListTable tbody tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  
-  .product-btn {
-    padding: 5px 10px;
-    background-color: #ff6666;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-  }
-  
-  .product-btn:hover {
-    background-color: #cc0000;
-  }
-  
+/* ProductList.css */
+
+/* .admin-product {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.admin-product__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.product-list-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.product-list-table th, .product-list-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.product-list-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.product-list-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.product-list-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.product-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.icon {
+  cursor: pointer;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+.icon--edit:hover {
+  color: #4CAF50; /* Green
+}
+
+.icon--delete:hover {
+  color: #F44336; /* Red */
+/* }
+
+.icon--disable:hover {
+  color: #FF9800; /* Orange */
+/* } */ 
+
+.admin-product {
+  margin: 20px;
+}
+
+.admin-product__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.product-list-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-list-table th,
+.product-list-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.product-list-table th {
+  background-color: #f2f2f2;
+}
+
+.product-list-row:hover {
+  background-color: #f2f2f2;
+}
+
+.product-image {
+  width: 100px; /* Adjust the width of the product images */
+  height: auto;
+}
+
+.icon {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.icon--edit {
+  color: green;
+}
+
+.icon--delete {
+  color: red;
+}
+
+.icon--disable {
+  color: orange;
+}
+
+.loading {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.error {
+  font-size: 18px;
+  text-align: center;
+  color: red;
+  margin-top: 20px;
+}

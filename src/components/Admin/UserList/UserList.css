@@ -1,0 +1,135 @@
+/* .adminHome {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .userListTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .userListTable th,
+  .userListTable td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .userListTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  
+  .remove-btn {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .remove-btn {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .remove-btn:hover {
+    background-color: #ff6347;
+  }
+  
+  .remove-btn:focus {
+    outline: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .userListTable th,
+    .userListTable td {
+      padding: 8px;
+    }
+    
+    .block-btn,
+    .remove-btn {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .userListTable th,
+    .userListTable td {
+      padding: 6px;
+    }
+    
+    .block-btn,
+    .remove-btn {
+      font-size: 12px;
+    }
+  } */
+
+  .adminHome {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .adminHome h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .adminHome h3 {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .userListTable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .userListTable th,
+  .userListTable td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .userListTable th {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .userListTable tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .remove-btn {
+    background-color: mediumaquamarine;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remove-btn:hover {
+    background-color: #c0392b;
+  }
+  

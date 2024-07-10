@@ -4,7 +4,8 @@ import ProductDisplay from '../../components/User/ProductDisplay/ProductDisplay'
 import Popular from '../../components/Popular/Popular'
 import Offers from '../../components/Offers/Offers'
 import NewCollections from '../../components/NewCollections/NewCollections'
-import NewsLetter from '../../components/NewsLetter/NewsLetter'
+ import NewsLetter from '../../components/NewsLetter/NewsLetter'
+ 
 
 
 function UserHome() {
@@ -15,7 +16,7 @@ function UserHome() {
         <Popular/>
         <Offers/>
         <NewCollections/>
-        <NewsLetter/>
+        <NewsLetter/> 
         
     </div>
   )

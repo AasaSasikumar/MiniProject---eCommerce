@@ -1,6 +1,6 @@
 .ProductDisplay{
     height: 100vh;
-    background: linear-gradient(180deg, #fde1ff,#e1ffea22 70%);
+    background: linear-gradient(180deg, pink,#e1ffea22 70%);
     display: flex;
 }
 .ProductDisplayLeft{
@@ -53,7 +53,11 @@
 }
 .ProductDisplayRight{
     flex: 1;
-    display: flex;
+    display:contents;
     align-items: center;
     justify-content: center;
+}
+.ProductDisplayRight img{
+ width: 100;
+ height: auto;
 }
